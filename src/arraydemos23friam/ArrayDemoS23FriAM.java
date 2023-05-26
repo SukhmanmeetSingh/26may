@@ -11,7 +11,7 @@ public class ArrayDemoS23FriAM {
        System.out.println("Enter a word");
        Scanner input = new Scanner(System.in);
        String myWord = input.nextLine();
-       
+       //Cpmment added  
        char[] myLetters =new char[myWord.length()];
        
        for(int i = 0;i<myLetters.length;i++){
